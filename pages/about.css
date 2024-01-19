@@ -9,47 +9,53 @@ body {
 h1 {
     color: #fafac6;
     font-family: "Bungee", sans-serif;
-    font-size: 250px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    font-size: 90px;
 }
 
 h2 {
     color: #fafac6;
     font-family: "Bungee", sans-serif;
-    font-size: 90px;
-}
-
-h3 {
-    color: #fafac6;
-    font-family: "Bungee", sans-serif;
     font-size: 70px; 
-    padding-bottom: 300px;
+    padding-bottom: 50px;
+    text-align: center;
 }
 
-p {
+main p {
     color: #474350;
     font-family: "Asap", sans-serif;
     font-size: 40px;
-    width: 50%;
     line-height: 60px;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 200px;
+}
+
+header {
+    text-align: center;
+    padding-top: 80px;
+}
+
+header img {
+    border-radius: 40px;
+    border: 10px solid #fafac6;
 }
 
 footer {
     text-align: center;
     line-height: 50px;
+    padding-top: 100px;
 }
 
 footer p {
+    font-family: "Asap", sans-serif;
     line-height: 75px;
     text-align: center;
     width: 100%;
     color: #fcffeb;
+    font-size: 40px;
     padding-bottom: 30px;
-}
-
-header {
-    text-align: center;
 }
 
 a:hover {
@@ -62,20 +68,12 @@ a {
     font-family: "Asap", sans-serif;
 }
 
-.board, .cake, .jellyfish {
-    text-align: center;
-}
-
-.black {
-    text-align: right;
-}
-
-.context {
-    padding-left: 50px;
-}
-
-header h2 {
-    padding-top: 50px;
+.certificate img {
+    border-radius: 4px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 
 .button {
@@ -85,7 +83,7 @@ header h2 {
     font-size: 30px;
     position: relative;
     left: 45%;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px;
     background-color: #474350;
 }
