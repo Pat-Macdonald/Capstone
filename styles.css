@@ -15,19 +15,22 @@ h1 {
 h2 {
     color: #fafac6;
     font-family: "Bungee", sans-serif;
-    font-size: 70px;
+    font-size: 90px;
 }
 
 h3 {
     color: #fafac6;
     font-family: "Bungee", sans-serif;
-    font-size: 50px; 
+    font-size: 70px; 
+    padding-bottom: 300px;
 }
 
 p {
     color: #474350;
     font-family: "Asap", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
+    width: 50%;
+    line-height: 60px;
 }
 
 footer {
@@ -37,6 +40,10 @@ footer {
 
 footer p {
     line-height: 75px;
+    text-align: center;
+    width: 100%;
+    color: #fcffeb;
+    padding-bottom: 30px;
 }
 
 header {
@@ -63,4 +70,12 @@ a {
 
 .black {
     text-align: right;
+}
+
+.context {
+    padding-left: 50px;
+}
+
+header h2 {
+    padding-top: 50px;
 }
